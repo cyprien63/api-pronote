@@ -1,0 +1,69 @@
+2026-01-15 14:06:28,525 - app.utils.themes - INFO - Thème appliqué: dark
+2026-01-15 14:06:28,525 - __main__ - INFO - Démarrage de Pronote Amélioré
+2026-01-15 14:07:01,197 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:07:02,102 - app.pronote_api.client - ERROR - Erreur de connexion: ('Decryption failed while trying to un pad. (probably bad decryption key/iv)', 'exception happened during login -> probably bad username/password')
+2026-01-15 14:07:02,102 - __main__ - ERROR - Échec de connexion: Erreur de connexion: ('Decryption failed while trying to un pad. (probably bad decryption key/iv)', 'exception happened during login -> probably bad username/password')
+2026-01-15 14:07:08,206 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:07:09,159 - app.pronote_api.client - ERROR - Erreur de connexion: ('Decryption failed while trying to un pad. (probably bad decryption key/iv)', 'exception happened during login -> probably bad username/password')
+2026-01-15 14:07:09,160 - __main__ - ERROR - Échec de connexion: Erreur de connexion: ('Decryption failed while trying to un pad. (probably bad decryption key/iv)', 'exception happened during login -> probably bad username/password')
+2026-01-15 14:07:15,214 - app.utils.themes - INFO - Thème appliqué: dark
+2026-01-15 14:07:15,215 - __main__ - INFO - Démarrage de Pronote Amélioré
+2026-01-15 14:07:31,851 - app.utils.themes - INFO - Thème appliqué: dark
+2026-01-15 14:07:31,852 - __main__ - INFO - Démarrage de Pronote Amélioré
+2026-01-15 14:07:45,906 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:07:46,469 - app.pronote_api.client - ERROR - Erreur de connexion: ('Decryption failed while trying to un pad. (probably bad decryption key/iv)', 'exception happened during login -> probably bad username/password')
+2026-01-15 14:07:46,469 - __main__ - ERROR - Échec de connexion: Erreur de connexion: ('Decryption failed while trying to un pad. (probably bad decryption key/iv)', 'exception happened during login -> probably bad username/password')
+2026-01-15 14:08:56,161 - app.utils.themes - INFO - Thème appliqué: dark
+2026-01-15 14:08:56,162 - __main__ - INFO - Démarrage de Pronote Amélioré
+2026-01-15 14:09:12,670 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:09:13,243 - app.pronote_api.client - ERROR - Erreur de connexion: ('Decryption failed while trying to un pad. (probably bad decryption key/iv)', 'exception happened during login -> probably bad username/password')
+2026-01-15 14:09:13,243 - __main__ - ERROR - Échec de connexion: Erreur de connexion: ('Decryption failed while trying to un pad. (probably bad decryption key/iv)', 'exception happened during login -> probably bad username/password')
+2026-01-15 14:12:17,494 - app.utils.themes - INFO - Thème appliqué: dark
+2026-01-15 14:12:17,495 - __main__ - INFO - Démarrage de Pronote Amélioré
+2026-01-15 14:12:31,530 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:12:32,502 - pronotepy.pronoteAPI - INFO - successfully logged in as demonstration
+2026-01-15 14:12:32,634 - pronotepy.pronoteAPI - INFO - got onglets data.
+2026-01-15 14:12:32,634 - app.pronote_api.client - INFO - Connexion réussie pour demonstration
+2026-01-15 14:12:32,635 - __main__ - INFO - Connexion réussie
+2026-01-15 14:12:32,636 - __main__ - INFO - Credentials sauvegardés
+2026-01-15 14:12:33,545 - app.ui.main_window - INFO - Page emploi du temps affichée
+2026-01-15 14:14:36,566 - app.utils.themes - INFO - Thème appliqué: dark
+2026-01-15 14:14:36,566 - __main__ - INFO - Démarrage de Pronote Amélioré
+2026-01-15 14:14:36,567 - __main__ - INFO - Tentative de connexion automatique...
+2026-01-15 14:14:37,269 - app.ui.login - INFO - Credentials sauvegardés chargés
+2026-01-15 14:14:46,844 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:14:47,605 - pronotepy.pronoteAPI - INFO - successfully logged in as demonstration
+2026-01-15 14:14:47,679 - pronotepy.pronoteAPI - INFO - got onglets data.
+2026-01-15 14:14:47,680 - app.pronote_api.client - INFO - Connexion réussie pour demonstration
+2026-01-15 14:14:47,680 - __main__ - INFO - Connexion réussie
+2026-01-15 14:14:47,682 - __main__ - INFO - Credentials sauvegardés
+2026-01-15 14:14:48,880 - app.ui.main_window - INFO - Page emploi du temps affichée
+2026-01-15 14:15:47,519 - app.utils.themes - INFO - Thème appliqué: dark
+2026-01-15 14:15:47,519 - __main__ - INFO - Démarrage de Pronote Amélioré
+2026-01-15 14:15:47,520 - __main__ - INFO - Tentative de connexion automatique...
+2026-01-15 14:15:48,198 - app.ui.login - INFO - Credentials sauvegardés chargés
+2026-01-15 14:15:52,323 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:15:53,061 - pronotepy.pronoteAPI - INFO - successfully logged in as demonstration
+2026-01-15 14:15:53,141 - pronotepy.pronoteAPI - INFO - got onglets data.
+2026-01-15 14:15:53,141 - app.pronote_api.client - INFO - Connexion réussie pour demonstration
+2026-01-15 14:15:53,142 - __main__ - INFO - Connexion réussie
+2026-01-15 14:15:53,143 - __main__ - INFO - Credentials sauvegardés
+2026-01-15 14:15:54,037 - app.ui.main_window - INFO - Page emploi du temps affichée
+2026-01-15 14:16:14,849 - app.ui.main_window - INFO - Page devoirs affichée
+2026-01-15 14:16:16,881 - app.ui.main_window - INFO - Page notes affichée
+2026-01-15 14:16:28,590 - app.ui.main_window - INFO - Page messages affichée
+2026-01-15 14:16:31,742 - app.ui.main_window - INFO - Page emploi du temps affichée
+2026-01-15 14:16:37,971 - __main__ - INFO - Fermeture de l'application
+2026-01-15 14:18:46,550 - app.utils.themes - INFO - Thème appliqué: dark
+2026-01-15 14:18:46,551 - __main__ - INFO - Démarrage de Pronote Amélioré
+2026-01-15 14:18:46,551 - __main__ - INFO - Tentative de connexion automatique...
+2026-01-15 14:18:47,198 - app.ui.login - ERROR - Erreur chargement credentials: 'CTkEntry' object has no attribute 'set'
+2026-01-15 14:20:21,969 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:20:23,164 - app.pronote_api.client - ERROR - Erreur de connexion: Page html is different than expected. Be sure that pronote_url is the direct url to your pronote page.
+2026-01-15 14:20:23,167 - __main__ - ERROR - Échec de connexion: URL Pronote invalide. Vérifiez l'adresse (elle doit se terminer par /eleve.html).
+2026-01-15 14:20:30,018 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:20:31,035 - app.pronote_api.client - ERROR - Erreur de connexion: Page html is different than expected. Be sure that pronote_url is the direct url to your pronote page.
+2026-01-15 14:20:31,039 - __main__ - ERROR - Échec de connexion: URL Pronote invalide. Vérifiez l'adresse (elle doit se terminer par /eleve.html).
+2026-01-15 14:20:38,782 - pronotepy.pronoteAPI - INFO - INIT
+2026-01-15 14:20:39,856 - app.pronote_api.client - ERROR - Erreur de connexion: Page html is different than expected. Be sure that pronote_url is the direct url to your pronote page.
+2026-01-15 14:20:39,861 - __main__ - ERROR - Échec de connexion: URL Pronote invalide. Vérifiez l'adresse (elle doit se terminer par /eleve.html).

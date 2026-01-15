@@ -1,0 +1,136 @@
+=================================================================
+        LISTE DES APIs PRONOTE DISPONIBLES
+=================================================================
+
+BIBLIOTHÈQUE PRINCIPALE: pronotepy (Python)
+Repository: https://github.com/bain3/pronotepy
+Documentation: https://pronotepy.readthedocs.io/
+
+-----------------------------------------------------------------
+1. AUTHENTIFICATION
+-----------------------------------------------------------------
+✓ Client.token_login()          - Connexion avec token
+✓ Client (username, password)   - Connexion standard
+✓ QR code login                 - Connexion par QR code
+✓ Mobile app token login        - Connexion mobile
+
+-----------------------------------------------------------------
+2. EMPLOI DU TEMPS / SCHEDULE
+-----------------------------------------------------------------
+✓ client.lessons(date_from, date_to)     - Récupérer les cours
+✓ client.generate_pdf_timetable()        - Générer PDF emploi du temps
+✓ Lesson.content                          - Contenu d'un cours
+✓ Lesson (data class)                     - Informations détaillées cours
+
+-----------------------------------------------------------------
+3. NOTES / GRADES
+-----------------------------------------------------------------
+✓ client.periods                 - Tous les périodes (trimestres/semestres)
+✓ client.current_period          - Période actuelle
+✓ period.grades                  - Liste des notes d'une période
+✓ Grade (data class)             - Détails d'une note
+  - grade.grade                  - Note obtenue
+  - grade.out_of                 - Note sur combien
+  - grade.subject                - Matière
+  - grade.date                   - Date
+✓ Average (data class)           - Moyennes
+
+-----------------------------------------------------------------
+4. DEVOIRS / HOMEWORK
+-----------------------------------------------------------------
+✓ client.homework(date)          - Récupérer devoirs à partir d'une date
+✓ Homework (data class)          - Informations sur un devoir
+  - Homework.subject             - Matière
+  - Homework.description         - Description
+  - Homework.done                - Statut (fait/pas fait)
+  - Homework.files               - Fichiers attachés
+
+-----------------------------------------------------------------
+5. MESSAGERIE / MESSAGING
+-----------------------------------------------------------------
+✓ client.messages()              - Récupérer messages
+✓ Message (data class)           - Informations message
+  - message.id                   - ID du message
+  - message.author               - Auteur
+  - message.seen                 - Lu/non lu
+  - message.created              - Date création
+  - message.content              - Contenu
+  - message.reply()              - Répondre à un message
+✓ Discussion (data class)        - Conversation
+✓ Recipient (data class)         - Destinataire
+
+-----------------------------------------------------------------
+6. INFORMATIONS ET NOTIFICATIONS
+-----------------------------------------------------------------
+✓ client.get_information_and_surveys()   - Infos et sondages
+✓ Information (data class)               - Détails information
+✓ Information.mark_as_read()            - Marquer comme lu
+
+-----------------------------------------------------------------
+7. ABSENCES ET RETARDS
+-----------------------------------------------------------------
+✓ Absence (data class)           - Informations absence
+✓ Delay (data class)             - Informations retard
+
+-----------------------------------------------------------------
+8. GESTION DE SESSION
+-----------------------------------------------------------------
+✓ client.logged_in               - Vérifier connexion
+✓ client.session_check()         - Vérifier/rafraîchir session
+✓ client.keep_alive()            - Maintenir connexion
+✓ client.refresh()               - Réinitialiser connexion
+✓ client.export_credentials()    - Exporter credentials pour réutilisation
+
+-----------------------------------------------------------------
+9. INFORMATIONS UTILISATEUR
+-----------------------------------------------------------------
+✓ client.info.name               - Nom utilisateur
+✓ client.start_day               - Jour de début
+✓ Subject (data class)           - Informations matière
+
+-----------------------------------------------------------------
+10. TYPES DE CLIENTS
+-----------------------------------------------------------------
+✓ Client                         - Client étudiant
+✓ ParentClient                   - Client parent
+✓ VieScolaireClient             - Client vie scolaire
+
+-----------------------------------------------------------------
+11. UTILITAIRES
+-----------------------------------------------------------------
+✓ to_dict()                      - Sérialisation JSON
+✓ Util class                     - Fonctions utilitaires
+  - Date parsing
+  - HTML parsing
+
+-----------------------------------------------------------------
+DÉPENDANCES REQUISES
+-----------------------------------------------------------------
+• pycryptodome
+• beautifulsoup4
+• requests
+• autoslot
+
+-----------------------------------------------------------------
+INSTALLATION
+-----------------------------------------------------------------
+pip install -U pronotepy
+
+-----------------------------------------------------------------
+NOTES IMPORTANTES
+-----------------------------------------------------------------
+⚠ pronotepy est en mode maintenance (bugs fixés, pas de nouvelles features)
+⚠ Les IDs d'objets changent à chaque session (utiliser session_check())
+⚠ Ne pas utiliser l'API officielle HYPERPLANNING (accès restreint)
+✓ Supporte connexion automatique et gestion de session
+✓ Export/Import de credentials pour réutilisation
+✓ Compatible avec comptes étudiants, parents et vie scolaire
+
+-----------------------------------------------------------------
+ALTERNATIVES
+-----------------------------------------------------------------
+• Pawnote.js (JavaScript/TypeScript) - En développement actif
+• pronote-api (GitLab - Théophile Cailliau) - API REST self-hosted
+• MisterAssm/pronote-api (JVM/JS/Native)
+
+=================================================================

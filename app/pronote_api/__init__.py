@@ -1,0 +1,3 @@
+"""
+Pronote API wrapper
+"""
